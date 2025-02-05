@@ -1,0 +1,1 @@
+tellraw @a {"rawtext":[{"text":"§a§l<Police Zebra>§r The harebrained mayor forgot to build us the Police Headquarters in town and we're in need of one!"}]}

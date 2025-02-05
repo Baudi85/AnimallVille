@@ -1,0 +1,419 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "cyd:lion",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "minecraft:large": {
+        "minecraft:scale": {
+          "value": 1.1
+        }
+      },
+      "minecraft:medium": {
+        "minecraft:scale": {
+          "value": 1
+        }
+      },
+      "minecraft:small": {
+        "minecraft:scale": {
+          "value": 0.9
+        }
+      },
+      "regular": {},
+      "noCrown": {
+        "minecraft:interact": {
+          "cooldown": 1,
+          "swing": true,
+          "use_item": true,
+          "particle_on_start": {
+            "particle_type": "villagerhappy",
+            "particle_y_offset": 0.25,
+            "particle_offset_towards_interactor": true
+          },
+          "play_sounds": "shear",
+          "interact_text": "Give Crown",
+          "on_interact": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                },
+                {
+                  "test": "has_equipment",
+                  "domain": "hand",
+                  "subject": "other",
+                  "value": "phantom_membrane"
+                }
+              ]
+            },
+            "event": "crown",
+            "target": "self"
+          }
+        },
+        "minecraft:variant": {
+          "value": 0
+        }
+      },
+      "crown": {
+        "minecraft:variant": {
+          "value": 1
+        }
+      },
+      "spawnText": {
+        "minecraft:spawn_entity": {
+          "spawn_entity": "cyd:liontext",
+          "num_to_spawn": 1,
+          "min_wait_time": 1,
+          "max_wait_time": 1,
+          "spawn_sound": "levelup"
+        },
+        "minecraft:timer": {
+          "looping": false,
+          "time": 1,
+          "time_down_event": {
+            "event": "endText",
+            "target": "self"
+          }
+        }
+      },
+      "handcuff": {
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "slowness",
+              "duration": 60,
+              "display_on_screen_animation": true,
+              "amplifier": 30,
+              "visible": false
+            }
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:behavior.go_home": {
+        "priority": 1,
+        "speed_multiplier": 1,
+        "interval": 400,
+        "goal_radius": 4
+      },
+      "minecraft:type_family": {
+        "family": [
+          "villager",
+          "NPC",
+          "lion"
+        ]
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0
+      },
+      "minecraft:health": {
+        "value": 20,
+        "max": 20
+      },
+      "minecraft:behavior.look_at_trading_player": {
+        "priority": 7
+      },
+      "minecraft:hide": {},
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:nameable": {},
+      "minecraft:movement": {
+        "value": 0.25
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true,
+        "can_pass_doors": true,
+        "can_open_doors": true,
+        "avoid_water": true
+      },
+      "minecraft:follow_range": {
+        "value": 128
+      },
+      "minecraft:annotation.open_door": {},
+      "minecraft:movement.basic": {},
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:inventory": {
+        "inventory_size": 8,
+        "private": false
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.hide": {
+        "priority": 0,
+        "speed_multiplier": 0.8,
+        "poi_type": "bed",
+        "duration": 30
+      },
+      "minecraft:behavior.panic": {
+        "priority": 1,
+        "speed_multiplier": 0.6
+      },
+      "minecraft:behavior.trade_with_player": {
+        "priority": 2
+      },
+      "minecraft:behavior.pickup_items": {
+        "priority": 1,
+        "max_dist": 3,
+        "goal_radius": 2,
+        "speed_multiplier": 0.5
+      },
+      "minecraft:behavior.move_indoors": {
+        "priority": 6,
+        "speed_multiplier": 0.8,
+        "timeout_cooldown": 8
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 8,
+        "look_distance": 8,
+        "probability": 0.02
+      },
+      "minecraft:behavior.share_items": {
+        "priority": 3,
+        "max_dist": 5,
+        "goal_radius": 2,
+        "speed_multiplier": 0.5,
+        "entity_types": [
+          {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "player"
+            }
+          }
+        ]
+      },
+      "minecraft:behavior.move_towards_restriction": {
+        "priority": 10,
+        "speed_multiplier": 0.6
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 10,
+        "speed_multiplier": 0.6
+      },
+      "minecraft:physics": {},
+      "minecraft:dweller": {
+        "dwelling_type": "village",
+        "dweller_role": "inhabitant",
+        "update_interval_base": 60,
+        "update_interval_variant": 40,
+        "can_find_poi": true,
+        "can_migrate": true,
+        "first_founding_reward": 5
+      },
+      "minecraft:interact": {
+        "cooldown": 60,
+        "swing": true,
+        "use_item": false,
+        "particle_on_start": {
+          "particle_type": "crit",
+          "particle_y_offset": 0.25,
+          "particle_offset_towards_interactor": true
+        },
+        "play_sounds": "shear",
+        "interact_text": "Handcuff",
+        "on_interact": {
+          "filters": {
+            "all_of": [
+              {
+                "test": "is_family",
+                "subject": "other",
+                "value": "player"
+              },
+              {
+                "test": "has_equipment",
+                "domain": "hand",
+                "subject": "other",
+                "value": "rabbit_hide"
+              }
+            ]
+          },
+          "event": "handcuff",
+          "target": "self"
+        }
+      },
+      "minecraft:damage_sensor": [
+        {
+          "on_damage": {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "lightning"
+            },
+            "event": "become_witch"
+          },
+          "deals_damage": false
+        },
+        {
+          "on_damage": {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "zombie"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "husk"
+                }
+              ],
+              "all_of": [
+                {
+                  "test": "has_damage",
+                  "value": "fatal"
+                }
+              ]
+            },
+            "event": "become_zombie"
+          }
+        }
+      ],
+      "minecraft:behavior.avoid_mob_type": {
+        "priority": 4,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "zombie"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "zombie_villager"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "zombie_pigman"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "illager"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "vex"
+                }
+              ]
+            },
+            "max_dist": 8,
+            "walk_speed_multiplier": 0.6,
+            "sprint_speed_multiplier": 0.6
+          }
+        ]
+      },
+      "minecraft:behavior.find_mount": {
+        "priority": 3,
+        "within_radius": 16,
+        "avoid_water": true,
+        "start_delay": 100,
+        "target_needed": false,
+        "mount_distance": 2
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 20,
+            "add": {
+              "component_groups": [
+                "minecraft:large",
+                "regular"
+              ]
+            }
+          },
+          {
+            "weight": 20,
+            "add": {
+              "component_groups": [
+                "minecraft:medium",
+                "regular"
+              ]
+            }
+          },
+          {
+            "weight": 20,
+            "add": {
+              "component_groups": [
+                "minecraft:small",
+                "regular"
+              ]
+            }
+          }
+        ]
+      },
+      "cyd:tagcheck": {
+        "sequence": [
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_tag",
+                  "operator": "equals",
+                  "value": "crown",
+                  "subject": "self"
+                }
+              ]
+            },
+            "add": {
+              "component_groups": [
+                "noCrown"
+              ]
+            },
+            "remove": {
+              "component_groups": [
+                "regular"
+              ]
+            }
+          }
+        ]
+      },
+      "crown": {
+        "add": {
+          "component_groups": [
+            "crown",
+            "spawnText"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "noCrown"
+          ]
+        }
+      },
+      "endText": {
+        "remove": {
+          "component_groups": [
+            "spawnText"
+          ]
+        }
+      },
+      "handcuff": {
+        "add": {
+          "component_groups": [
+            "handcuff"
+          ]
+        }
+      }
+    }
+  }
+}

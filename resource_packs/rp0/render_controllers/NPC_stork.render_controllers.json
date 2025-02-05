@@ -1,0 +1,22 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.NPC_stork": {
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.stork",
+            "Texture.storkred",
+            "Texture.storkblack"
+          ]
+        }
+      },
+      "textures": [
+        "Array.skins[query.variant]"
+      ]
+    }
+  }
+}

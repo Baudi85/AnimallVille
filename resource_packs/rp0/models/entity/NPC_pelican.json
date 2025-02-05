@@ -1,0 +1,82 @@
+{
+	"format_version": "1.10.0",
+	"geometry.NPC_pelican": {
+		"texturewidth": 128,
+		"textureheight": 128,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 2,
+		"visible_bounds_offset": [0, 1, 0],
+		"bones": [
+			{
+				"name": "head",
+				"pivot": [0, 24, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-4, 19, -5], "size": [8, 9, 9], "uv": [50, 0], "mirror": false},
+					{"origin": [-6, 27, -7], "size": [12, 1, 13], "uv": [0, 0], "mirror": false},
+					{"origin": [-4, 28, -5], "size": [8, 3, 9], "uv": [0, 18], "mirror": false},
+					{"origin": [-2, 20, -12], "size": [4, 6, 7], "uv": [0, 34], "mirror": false}
+				]
+			},
+			{
+				"name": "body",
+				"pivot": [0, 24, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-4, 9, -3], "size": [8, 10, 6], "uv": [34, 18], "mirror": false},
+					{"origin": [0, 8, 1], "size": [0, 6, 7], "uv": [24, 47], "mirror": false}
+				]
+			},
+			{
+				"name": "leftArm",
+				"pivot": [-5, 18, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-6, 7, -2], "size": [2, 12, 4], "uv": [12, 47], "mirror": false}
+				]
+			},
+			{
+				"name": "rightArm",
+				"pivot": [5, 18, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [4, 7, -2], "size": [2, 12, 4], "uv": [0, 47], "mirror": false}
+				]
+			},
+			{
+				"name": "leftLeg",
+				"pivot": [-1.9, 11, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-2.9, 1, -1], "size": [2, 8, 2], "uv": [38, 47], "mirror": false},
+					{"origin": [-4, 0, -5], "size": [4, 1, 7], "uv": [44, 34], "mirror": false}
+				]
+			},
+			{
+				"name": "rightLeg",
+				"pivot": [1.9, 11, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [0.9, 1, -1], "size": [2, 8, 2], "uv": [0, 63], "mirror": false},
+					{"origin": [0, 0, -5], "size": [4, 1, 7], "uv": [22, 34], "mirror": false}
+				]
+			},
+			{
+				"name": "bone",
+				"pivot": [0, 0, 0]
+			},
+			{
+				"name": "bone2",
+				"pivot": [0, 0, 0]
+			},
+			{
+				"name": "bone3",
+				"pivot": [0, 0, 0]
+			},
+			{
+				"name": "bone4",
+				"pivot": [0, 0, 0]
+			}
+		]
+	}
+}

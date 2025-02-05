@@ -1,0 +1,1 @@
+tellraw @a {"rawtext":[{"text":"§a§l<Pilot Pigeon>§r I have secured this area to build some landing platforms, but I'm hopeless at construction. Do you have some spare time on your hands to help a poor bird out?"}]}

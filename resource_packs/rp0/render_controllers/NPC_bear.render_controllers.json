@@ -1,0 +1,22 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.NPC_bear": {
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.bear",
+            "Texture.bearTalking",
+            "Texture.bearBiome2"
+          ]
+        }
+      },
+      "textures": [
+        "Array.skins[query.variant]"
+      ]
+    }
+  }
+}

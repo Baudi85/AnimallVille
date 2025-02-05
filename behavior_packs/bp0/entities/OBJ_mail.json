@@ -1,0 +1,144 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "cyd:mail",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "bat"
+    },
+    "component_groups": {
+      "seat": {
+        "minecraft:variant": {
+          "value": 1
+        },
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "family_types": [
+            "stork"
+          ],
+          "pull_in_entities": true,
+          "rider_can_interact": true,
+          "seats": [
+            {
+              "position": [
+                0,
+                0,
+                1
+              ],
+              "rotate_rider_by": -180,
+              "lock_rider_rotation": 10,
+              "min_rider_count": 0,
+              "max_rider_count": 1
+            }
+          ]
+        },
+        "minecraft:timer": {
+          "looping": true,
+          "time": 30,
+          "time_down_event": {
+            "event": "unseat"
+          }
+        }
+      },
+      "unseat": {
+        "minecraft:variant": {
+          "value": 0
+        },
+        "minecraft:timer": {
+          "looping": true,
+          "time": 30,
+          "time_down_event": {
+            "event": "seat"
+          }
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "inanimate",
+          "horse"
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 1,
+        "height": 2
+      },
+      "minecraft:physics": {
+        "has_gravity": false,
+        "has_collision": false
+      },
+      "minecraft:health": {
+        "value": 100000000,
+        "max": 100000000
+      },
+      "minecraft:damage_sensor": [
+        {
+          "deals_damage": false
+        }
+      ],
+      "minecraft:is_chested": {},
+      "minecraft:is_tamed": {},
+      "minecraft:inventory": {
+        "inventory_size": 16,
+        "container_type": "horse"
+      },
+      "minecraft:knockback_resistance": {
+        "value": 100000000
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 10,
+            "remove": {},
+            "add": {
+              "component_groups": [
+                "unseat"
+              ]
+            }
+          }
+        ]
+      },
+      "lower": {
+        "add": {
+          "component_groups": [
+            "lower"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "open"
+          ]
+        }
+      },
+      "unseat": {
+        "remove": {
+          "component_groups": [
+            "seat"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "unseat"
+          ]
+        }
+      },
+      "seat": {
+        "remove": {
+          "component_groups": [
+            "unseat"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "seat"
+          ]
+        }
+      }
+    }
+  }
+}

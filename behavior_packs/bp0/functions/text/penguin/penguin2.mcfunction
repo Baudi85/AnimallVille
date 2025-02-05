@@ -1,0 +1,1 @@
+tellraw @a {"rawtext":[{"text":"§a§l<Handsome Penguin>§r However, our flippers make it pretty hard to specialise in construction. Our penguin brethren would be forever grateful if you built one for us herene for us here!"}]}

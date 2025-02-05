@@ -1,0 +1,16 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cyd:promo_banner_rate",
+	  "materials": {"default": "cyd_alpha"},
+	  "textures":  {"default": "textures/entity/cyd_promo/banner_rate"},
+      "geometry":  {"default": "geometry.cyd.promo_banner"},
+      "render_controllers": [ "controller.render.cyd.promo" ],
+      "spawn_egg": {
+        "base_color": "#d9672f",
+        "overlay_color": "#ffed53"
+      }
+    }
+  }
+}

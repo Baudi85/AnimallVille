@@ -1,0 +1,1 @@
+tellraw @a {"rawtext":[{"text":"§a§l<Tourist Mouse>§r When you have some spare time, I recommend exploring the world around you. There are many scenarios for you to build!"}]}

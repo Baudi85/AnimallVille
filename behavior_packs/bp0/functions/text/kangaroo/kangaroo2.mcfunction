@@ -1,0 +1,1 @@
+tellraw @a {"rawtext":[{"text":"§a§l<Boxer Kangaroo>§r I recently purchased this empty building nestled within the mountain. This should be perfect for a boxing ring!"}]}

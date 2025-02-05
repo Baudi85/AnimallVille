@@ -1,0 +1,53 @@
+{
+  "resource_pack_name": "Animalia Resource Pack",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "AU_ruby": {
+      "textures": "textures/AU_ruby/ruby"
+    },
+    "CYD_AU": {
+      "textures": [
+        "textures/CYD_AU/spawn/animalia_egg_NPC_alligator",
+        "textures/CYD_AU/spawn/animalia_egg_NPC_bear",
+        "textures/CYD_AU/spawn/animalia_egg_NPC_bunny",
+        "textures/CYD_AU/spawn/animalia_egg_NPC_chicken",
+        "textures/CYD_AU/spawn/animalia_egg_NPC_elephant",
+        "textures/CYD_AU/spawn/animalia_egg_NPC_giraffe",
+        "textures/CYD_AU/spawn/animalia_egg_NPC_hippo",
+        "textures/CYD_AU/spawn/animalia_egg_NPC_kangaroo",
+        "textures/CYD_AU/spawn/animalia_egg_NPC_lion",
+        "textures/CYD_AU/spawn/animalia_egg_NPC_monkey",
+        "textures/CYD_AU/spawn/animalia_egg_NPC_panther",
+        "textures/CYD_AU/spawn/animalia_egg_NPC_penguin",
+        "textures/CYD_AU/spawn/animalia_egg_NPC_pig",
+        "textures/CYD_AU/spawn/animalia_egg_NPC_pigeon",
+        "textures/CYD_AU/spawn/animalia_egg_NPC_rhino",
+        "textures/CYD_AU/spawn/animalia_egg_NPC_sheep",
+        "textures/CYD_AU/spawn/animalia_egg_NPC_stork",
+        "textures/CYD_AU/spawn/animalia_egg_NPC_zebra",
+        "textures/CYD_AU/spawn/animalia_egg_vehicle_alligatorfiretruck",
+        "textures/CYD_AU/spawn/animalia_egg_vehicle_bearschoolbus",
+        "textures/CYD_AU/spawn/animalia_egg_vehicle_bunnyambulance",
+        "textures/CYD_AU/spawn/animalia_egg_vehicle_hippogarbagetruck",
+        "textures/CYD_AU/spawn/animalia_egg_vehicle_mousecar",
+        "textures/CYD_AU/spawn/animalia_egg_vehicle_penguinjetski",
+        "textures/CYD_AU/spawn/animalia_egg_vehicle_pigeonballoon",
+        "textures/CYD_AU/spawn/animalia_egg_vehicle_rhinochopper",
+        "textures/CYD_AU/spawn/animalia_egg_vehicle_storkpostcar",
+        "textures/CYD_AU/spawn/animalia_egg_vehicle_zebrapolicecar",
+        "textures/CYD_AU/spawn/animalia_egg_vehicle_chickencar",
+        "textures/CYD_AU/spawn/animalia_egg_NPC_mouse",
+        "textures/CYD_AU/spawn/animalia_egg_NPC_pelican",
+        "textures/CYD_AU/spawn/animalia_sled",
+        "textures/CYD_AU/spawn/animalia_companion_chick",
+        "textures/CYD_AU/spawn/animalia_companion_dino",
+        "textures/CYD_AU/spawn/animalia_companion_frog",
+        "textures/CYD_AU/spawn/animalia_companion_snail",
+        "textures/CYD_AU/spawn/animalia_companion_squirrel",
+        "textures/CYD_AU/spawn/animalia_egg_NPC_bunnybaby",
+        "textures/CYD_AU/spawn/egg_egg",
+        "textures/CYD_AU/spawn/mailbox"
+      ]
+    }
+  }
+}

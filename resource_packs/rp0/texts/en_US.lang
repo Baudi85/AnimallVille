@@ -1,0 +1,466 @@
+pack.name=Animal Ville Resource Pack
+pack.description=by Cyclone Designs
+
+
+
+item.birch_door.name=Red Door
+item.jungle_door.name=Purple Door
+item.wooden_door.name=Gray Door
+item.spruce_door.name=Yellow Door
+
+tile.end_rod.name=Fluorescent Lamp
+
+
+item.boat.oak.name=Jetski
+item.boat.spruce.name=Jetski
+item.boat.birch.name=Jetski
+item.boat.jungle.name=Jetski
+item.boat.acacia.name=Jetski
+item.boat.big_oak.name=Jetski
+
+
+item.rabbit_hide.name=Pet Food
+item.spawn_egg.entity.cyd:egg.name=Spawn Egg
+
+tile.acaciaFence.name=Orange Wood Type 1 Fence
+tile.acacia_fence_gate.name=Orange Wood Type 1 Fence Gate
+tile.birchFence.name=Yellow Wood Type 2 Fence
+tile.birch_fence_gate.name=Yellow Wood Type 2 Fence Gate
+tile.bone_block.name=Light Gray Tubes
+tile.iron_block.name=Red Bricks
+tile.lapis_block.name=Blue Garbage Bin Base
+tile.brick_block.name=Orange Brick
+tile.brown_mushroom.name=Brown Pot
+tile.wooden_button.name=Yellow Wood Type 1 Button
+tile.acacia_button.name=Orange Wood Type 1 Button
+tile.birch_button.name=Yellow Wood Type 2 Button
+tile.dark_oak_button.name=Light Gray Steel Button
+tile.jungle_button.name=Brown Wood Button
+tile.spruce_button.name=Cyan Wood Button
+tile.carved_pumpkin.name=Furniture - Closet Bottom
+tile.cauldron.name=Clay Pot
+tile.stained_glass.white.name=Brown Glass Fence Block
+tile.stained_glass.silver.name=Lime Glass Block
+tile.stained_glass.gray.name=Orange Glass Fence Block
+tile.stained_glass.black.name=Black Glass Fence Block
+tile.stained_glass.brown.name=Blue Glass Window Block
+tile.stained_glass.red.name=Red Glass Block
+tile.stained_glass.orange.name=Brown Wooden Glass Fence Block
+tile.stained_glass.yellow.name=Blue Glass Block Type 1
+tile.stained_glass.lime.name=Yellow Glass Window Block
+tile.stained_glass.green.name=Yellow Glass Fence Block
+tile.stained_glass.cyan.name=Red Glass Fence Block
+tile.stained_glass.light_blue.name=Blue Glass Fence Block Type 1
+tile.stained_glass.blue.name=Blue Glass Fence Block Type 2
+tile.stained_glass.purple.name=Purple Glass Fence Block
+tile.stained_glass.magenta.name=Blue Glass Block Type 2
+tile.stained_glass.pink.name=Green Glass Leaves Block
+tile.stained_glass_pane.white.name=Brown Glass Fence Pane
+tile.stained_glass_pane.silver.name=Lime Glass Fence Pane
+tile.stained_glass_pane.gray.name=Orange Glass Fence Pane
+tile.stained_glass_pane.black.name=Black Glass Fence Pane
+tile.stained_glass_pane.brown.name=Blue Glass Window Pane
+tile.stained_glass_pane.red.name=Red Glass Fence Pane
+tile.stained_glass_pane.orange.name=Brown Wooden Glass Fence Pane
+tile.stained_glass_pane.yellow.name=Blue Glass Pane Type 1
+tile.stained_glass_pane.lime.name=Yellow Glass Window Pane
+tile.stained_glass_pane.green.name=Yellow Glass Fence Pane
+tile.stained_glass_pane.cyan.name=Red Glass Fence Pane
+tile.stained_glass_pane.light_blue.name=Blue Glass Fence Pane Type 1
+tile.stained_glass_pane.blue.name=Blue Glass Fence Pane Type 2
+tile.stained_glass_pane.purple.name=Purple Glass Fence Pane
+tile.stained_glass_pane.magenta.name=Blue Glass Pane Type 2
+tile.stained_glass_pane.pink.name=Green Glass Leaves Pane
+tile.clay.name=Light Gray Clay
+tile.hardened_clay.name=Orange Terracotta
+tile.stained_hardened_clay.black.name=Black Clay Type 2
+tile.stained_hardened_clay.blue.name=Blue Hardened Clay
+tile.stained_hardened_clay.brown.name=Yellow Clay
+tile.stained_hardened_clay.cyan.name=Light Blue Hardened Clay
+tile.stained_hardened_clay.gray.name=Black Hardened Clay
+tile.stained_hardened_clay.green.name=Cyan Clay
+tile.stained_hardened_clay.lightBlue.name=Light Blue Clay
+tile.stained_hardened_clay.lime.name=Pink Clay
+tile.stained_hardened_clay.magenta.name=White Column Block
+tile.stained_hardened_clay.name=Orange Terracotta
+tile.stained_hardened_clay.orange.name=Orange Hardened Clay
+tile.stained_hardened_clay.pink.name=Red Clay
+tile.stained_hardened_clay.purple.name=Gray Clay
+tile.stained_hardened_clay.red.name=Red Hardened Clay
+tile.stained_hardened_clay.silver.name=Green and White Trim Block
+tile.stained_hardened_clay.white.name=White Terracotta
+tile.stained_hardened_clay.yellow.name=Yellow Hardened Clay
+tile.wool.black.name=Brown Clay
+tile.wool.blue.name=Fruit Crate
+tile.wool.brown.name=Yellow Box
+tile.wool.cyan.name=Yellow Straw Block
+tile.wool.gray.name=Blue Garbage Bin Top
+tile.wool.green.name=Blue Pattern Wool
+tile.wool.lightBlue.name=Blue Clay
+tile.wool.lime.name=Orange Wood Type 2
+tile.wool.magenta.name=Cyan Pattern Wool
+tile.wool.name=Wool
+tile.wool.orange.name=Red Wood Type 4
+tile.wool.pink.name=Watermelon Inside Block
+tile.wool.purple.name=Purple Clay
+tile.wool.red.name=Brown Pattern Wool
+tile.wool.silver.name=Egg Crate
+tile.wool.white.name=Red Pattern Wool
+tile.wool.yellow.name=Yellow Pattern Wool
+tile.cobblestone_wall.mossy.name=Black Steel Type 2 Wall
+tile.cobblestone_wall.normal.name=Purple Brick Type 1 Wall
+tile.cobblestone_wall.granite.name=Granite Wall
+tile.cobblestone_wall.diorite.name=Diorite Wall
+tile.cobblestone_wall.andesite.name=Andesite Wall
+tile.cobblestone_wall.sandstone.name=Snowy Purple Brick Type 2 Wall
+tile.cobblestone_wall.brick.name=Orange Brick Wall
+tile.cobblestone_wall.stone_brick.name=Stone Brick Wall
+tile.cobblestone_wall.mossy_stone_brick.name=Red Wood Type 1 Wall
+tile.cobblestone_wall.nether_brick.name=Red Wood Type 2 Wall
+tile.cobblestone_wall.end_brick.name=Red Sandstone Type 2 Wall
+tile.cobblestone_wall.red_sandstone.name=Red Sandstone Type 1 Wall
+tile.cobblestone_wall.red_nether_brick.name=Red Wood Type 3 Wall
+tile.darkOakFence.name=Light Gray Steel Fence
+tile.dark_oak_fence_gate.name=Light Gray Steel Fence Gate
+tile.deadbush.name=Mini Cactus
+tile.podzol.name=Snowy Pink Brick
+tile.purpur_block.default.name=White Quartz
+tile.purpur_block.lines.name=Red Pipes
+tile.purpur_block.chiseled.name=Chiseled White Quartz
+tile.dispenser.name=Dispenser
+tile.iron_door.name=Iron Door
+tile.doorWood.name=Wooden Door
+tile.double_plant.paeonia.name=Strelitziaceae
+tile.double_plant.rose.name=Wheat
+tile.double_plant.sunflower.name=Sunflower
+tile.double_plant.syringa.name=Blue Tall Flowers
+tile.fence.name=Yellow Wood Type 1 Fence
+tile.fence_gate.name=Yellow Wood Type 1 Fence Gate
+tile.yellow_flower.dandelion.name=White Flower Patch
+tile.yellow_flower.name=White Flower Patch
+tile.red_flower.allium.name=Pink Flower
+tile.red_flower.blueOrchid.name=Blue Flower
+tile.red_flower.houstonia.name=Yellow Flower Patch
+tile.red_flower.name=Red Flower
+tile.red_flower.poppy.name=Red Flower
+tile.red_flower.tulipOrange.name=Orange Flower
+tile.red_flower.tulipPink.name=Pink Flower
+tile.red_flower.tulipWhite.name=White Flower
+tile.furnace.name=Oven
+tile.glass.name=Yellow Glass
+tile.netherrack.name=Dark Orange Hardened Clay
+tile.iron_trapdoor.name=Black Iron Trapdoor
+tile.jungleFence.name=Brown Wood Fence
+tile.jungle_fence_gate.name=Brown Wood Fence Gate
+tile.lit_pumpkin.name=Furniture - Dresser
+tile.monster_egg.cobble.name=Infested Purple Brick Type 1
+tile.monster_egg.crackedbrick.name=Infested Giraffe Pattern Block
+tile.monster_egg.mossybrick.name=Infested Red Wood Type 1
+tile.mushroom.name=Red Mushroom
+tile.mycelium.name=Green and Black Trim Block
+tile.nether_brick.name=Red Wood Type 2
+tile.red_nether_brick.name=Red Wood Type 3
+tile.nether_brick_fence.name=Red Wood Type 2 Fence
+tile.obsidian.name=Black Steel Column Block
+tile.observer.name=Furniture - Composite Piece (Observer)
+tile.wooden_pressure_plate.name=Yellow Wood Type 1 Pressure Plate
+tile.acacia_pressure_plate.name=Orange Wood Type 1 Pressure Plate
+tile.birch_pressure_plate.name=Yellow Wood Type 2 Pressure Plate
+tile.dark_oak_pressure_plate.name=Light Gray Steel Pressure Plate
+tile.jungle_pressure_plate.name=Brown Wood Pressure Plate
+tile.spruce_pressure_plate.name=Cyan Wood Pressure Plate
+tile.prismarine.dark.name=Full Grass Block
+tile.pumpkin.name=Furniture - Desk
+tile.quartz_block.chiseled.name=Yellow and Blue Trim Block
+tile.quartz_block.default.name=Black Steel Type 2 Block
+tile.quartz_block.lines.name=Blue Steel Pipe
+tile.quartz_block.smooth.name=Black Steel Type 2 Tile Block
+tile.quartz_block.name=Black Steel Type 2 Block
+tile.red_mushroom.name=Red Mushroom
+tile.sandstone.default.name=Snowy Purple Brick Type 2
+tile.sandstone.name=Snowy Purple Brick Type 2
+tile.sandstone.smooth.name=Full Snow Block
+tile.sandstone.cut.name=Purple Brick
+tile.seaLantern.name=Purple Street Lamp
+tile.spruceFence.name=Cyan Wood Fence
+tile.spruce_fence_gate.name=Cyan Wood Fence Gate
+tile.brick_stairs.name=Orange Brick Stairs
+tile.nether_brick_stairs.name=Red Wood Type 2 Stairs
+tile.quartz_stairs.name=Black Steel Type 2 Stairs
+tile.smooth_quartz_stairs.name=Black Steel Type 2 Tile Stairs
+tile.sandstone_stairs.name=Snowy Purple Brick Type 2 Stairs
+tile.stone_stairs.name=Purple Brick Type 1 Stairs
+tile.oak_stairs.name=Yellow Wood Type 1 Stairs
+tile.acacia_stairs.name=Orange Wood Type 1 Stairs
+tile.birch_stairs.name=Yellow Wood Type 2 Stairs
+tile.dark_oak_stairs.name=Light Gray Steel Stairs
+tile.jungle_stairs.name=Brown Wood Stairs
+tile.spruce_stairs.name=Cyan Wood Stairs
+tile.purpur_stairs.name=White Quartz Stairs
+tile.dark_prismarine_stairs.name=Full Grass Block Stairs
+tile.mossy_stone_brick_stairs.name=Red Wood Type 1 Stairs
+tile.smooth_sandstone_stairs.name=Full Snow Stairs
+tile.end_brick_stairs.name=Cut Red Sandstone Type 2 Stairs
+tile.mossy_cobblestone_stairs.name=Black Steel Type 2 Stairs
+tile.red_nether_brick_stairs.name=Red Wood Type 3 Stairs
+tile.cobblestone.name=Purple Brick Type 1
+tile.stonebrick.cracked.name=Giraffe Pattern Block
+tile.stonebrick.mossy.name=Red Wood Type 1
+tile.mossy_cobblestone.name=Black Steel Type 2
+tile.double_stone_slab.brick.name=Orange Bricks Slab
+tile.double_stone_slab.cobble.name=Purple Bricks Type 1 Slab
+tile.double_stone_slab.nether_brick.name=Red Wood Type 2 Slab
+tile.double_stone_slab.quartz.name=Black Steel Type 2
+tile.double_stone_slab.sand.name=Snowy Purple Brick Type 2 Slab
+tile.double_stone_slab.wood.name=Yellow Wood Type 1 Slab
+tile.stone_slab.brick.name=Orange Bricks Slab
+tile.stone_slab.cobble.name=Purple Bricks Type 1 Slab
+tile.stone_slab.nether_brick.name=Red Wood Type 2 Slab
+tile.stone_slab.quartz.name=Black Steel Type 2
+tile.stone_slab.sand.name=Sandstone Slab
+tile.stone_slab.smoothStoneBrick.name=Stone Bricks Slab
+tile.stone_slab.wood.name=Wooden Slab
+tile.double_stone_slab2.red_sandstone.name=Red Sandstone Type 1 Slab
+tile.stone_slab2.red_sandstone.name=Red Sandstone Type 1 Slab
+tile.stone_slab2.purpur.name=White Quartz Slab
+tile.stone_slab2.prismarine.rough.name=Prismarine Slab
+tile.stone_slab2.prismarine.dark.name=Dark Prismarine Slab
+tile.stone_slab2.prismarine.bricks.name=Prismarine Bricks Slab
+tile.stone_slab2.mossy_cobblestone.name=Black Steel Type 2 Slab
+tile.stone_slab2.red_nether_brick.name=Red Wood Type 3 Slab
+tile.stone_slab2.sandstone.smooth.name=Smooth Sandstone Slab
+tile.stone_slab3.end_brick.name=Cut Red Sandstone Type 2 Slab
+tile.stone_slab3.red_sandstone.smooth.name=Smooth Red Sandstone Type 1 Slab
+tile.stone_slab3.andesite.smooth.name=Polished Andesite Slab
+tile.stone_slab3.andesite.name=Andesite Slab
+tile.stone_slab3.diorite.name=Diorite Slab
+tile.stone_slab3.diorite.smooth.name=Polished Diorite Slab
+tile.stone_slab3.granite.name=Granite Slab
+tile.stone_slab3.granite.smooth.name=Polished Granite Slab
+tile.stone_slab4.mossy_stone_brick.name=Red Wood Type 1 Slab
+tile.stone_slab4.smooth_quartz.name=Black Steel Type 2 Tile Slab
+tile.stone_slab4.stone.name=Stone Slab
+tile.stone_slab4.cut_sandstone.name=Cut Sandstone Slab
+tile.stone_slab4.cut_red_sandstone.name=Cut Red Sandstone Type 1 Slab
+tile.trapdoor.name=Orange Wood Type 1 Trapdoor
+tile.end_bricks.name=Cut Red Sandstone Type 2
+tile.planks.big_oak.name=Light Gray Steel
+tile.planks.birch.name=Yellow Wood Type 2
+tile.planks.jungle.name=Brown Wood
+tile.planks.name=Yellow Wood Type 1
+tile.planks.oak.name=Yellow Wood Type 1
+tile.planks.spruce.name=Cyan Wood
+tile.wooden_slab.acacia.name=Orange Wood Type 1 Slab
+tile.wooden_slab.big_oak.name=Light Gray Steel Slab
+tile.wooden_slab.birch.name=Yellow Wood Type 2 Slab
+tile.wooden_slab.jungle.name=Brown Wood Slab
+tile.wooden_slab.name=Yellow Wood Type 1 Slab
+tile.wooden_slab.oak.name=Yellow Wood Type 1 Slab
+tile.wooden_slab.spruce.name=Cyan Wood Slab
+tile.carpet.black.name=Brown Clay Carpet
+tile.carpet.blue.name=Fruit Crate Top Carpet
+tile.carpet.brown.name=Yellow Box Carpet
+tile.carpet.cyan.name=Yellow Straw Carpet
+tile.carpet.gray.name=Garbage Bin Top Carpet
+tile.carpet.green.name=Blue Pattern Wool Carpet
+tile.carpet.lightBlue.name=Blue Clay Carpet
+tile.carpet.lime.name=Orange Wood Type 2 Carpet
+tile.carpet.magenta.name=Cyan Pattern Wool Carpet
+tile.carpet.name=Carpet
+tile.carpet.orange.name=Red Wood Type 4 Carpet
+tile.carpet.pink.name=Melon Inside Carpet
+tile.carpet.purple.name=Purple Clay Carpet
+tile.carpet.red.name=Brown Pattern Wool Carpet
+tile.carpet.silver.name=Egg Crate Top Carpet
+tile.carpet.white.name=Red Pattern Wool Carpet
+tile.carpet.yellow.name=Yellow Pattern Wool Carpet
+tile.red_sandstone_stairs.name=Red Sandstone Type 1 Stairs
+tile.smooth_red_sandstone_stairs.name=Smooth Red Type 1 Sandstone Stairs
+tile.red_sandstone.chiseled.name=Chiseled Red Sandstone Type 1
+tile.red_sandstone.default.name=Red Sandstone Type 1
+tile.red_sandstone.name=Red Sandstone Type 1
+tile.red_sandstone.smooth.name=Smooth Red Sandstone Type 1
+tile.red_sandstone.cut.name=Cut Red Sandstone Type 1
+tile.nether_wart_block.name=Red Sandstone Type 2
+tile.planks.acacia.name=Orange Wood Type 1
+
+tile.glazedTerracotta.white.name=Pink Corner Type 1 Glazed Terracotta
+tile.glazedTerracotta.orange.name=Orange Carpet Side Type 1 Glazed Terracotta
+tile.glazedTerracotta.light_blue.name=Blue Tube Corner Glazed Terracotta
+tile.glazedTerracotta.yellow.name=Dark Green Clay
+tile.glazedTerracotta.lime.name=Tools Type 1
+tile.glazedTerracotta.pink.name=Tools Type 2
+tile.glazedTerracotta.gray.name=Pink Corner Type 2 Glazed Terracotta
+tile.glazedTerracotta.cyan.name=Orange Carpet Side Type 2 Glazed Terracotta
+tile.glazedTerracotta.purple.name=Diamond Plate Steel
+tile.glazedTerracotta.blue.name=Red Pattern Glazed Terracotta
+tile.glazedTerracotta.brown.name=Orange Carpet Corner Glazed Terracotta
+tile.glazedTerracotta.green.name=Blue Pattern Glazed Terracotta
+tile.glazedTerracotta.red.name=Black Pipes Glazed  Terracotta
+tile.glazedTerracotta.black.name= Zebra Pattern Glazed Terracotta
+tile.concrete.black.name=Black Clay Type 1
+tile.concrete.red.name=Red Steel
+tile.concrete.green.name=Full Watermelon Block
+tile.concrete.brown.name=Red Wood Type 5
+tile.concrete.blue.name=Pink Bricks Type 1
+tile.concrete.purple.name=Light Gray and White Trim Block
+tile.concrete.cyan.name=Orange Carpet Block
+tile.concrete.silver.name=White Steel
+tile.concrete.gray.name=Green Bricks
+tile.concrete.pink.name=Blue Diamond Pattern Block
+tile.concrete.lime.name=Green Clay
+tile.concrete.yellow.name=Light Gray Grate
+tile.concrete.lightBlue.name=Green Steel
+tile.concrete.magenta.name=Pink Bricks Type 2
+tile.concrete.orange.name=Brown Straw Block
+tile.concrete.white.name=White Clay
+tile.concretePowder.black.name=Green Fruit Bar Sign
+tile.concretePowder.green.name=Brown Diamond Pattern
+tile.concretePowder.brown.name=Brown Crate
+tile.concretePowder.blue.name=Red Fruit Bar Sign
+tile.concretePowder.purple.name=Yellow Lines Block
+tile.concretePowder.cyan.name=Dark Gravel
+tile.concretePowder.gray.name=Green Tube
+tile.concretePowder.pink.name=Red and White Trim Block
+tile.concretePowder.lime.name=Garbage Block
+tile.concretePowder.yellow.name=Yellow and Green Trim Block
+tile.concretePowder.lightBlue.name=Blue and White Trim Block
+tile.concretePowder.orange.name=Yellow Crate
+tile.stripped_oak_log.name=Vault Keyhole Block
+tile.wood.stripped.oak.name=Vault Wall Block
+
+
+entity.cyd:chick.name=Chick
+item.spawn_egg.entity.cyd:chick.name=Spawn Chick
+entity.cyd:dino.name=Dino
+item.spawn_egg.entity.cyd:dino.name=Spawn Dino
+entity.cyd:frog.name=Frog
+item.spawn_egg.entity.cyd:frog.name=Spawn Frog
+entity.cyd:snail.name=Snail
+item.spawn_egg.entity.cyd:snail.name=Spawn Snail
+entity.cyd:squirrel.name=Squirrel
+item.spawn_egg.entity.cyd:squirrel.name=Spawn Squirrel
+
+entity.cyd:alligator.name=Alligator
+item.spawn_egg.entity.cyd:alligator.name=Spawn Alligator
+
+entity.cyd:bear.name=Bear
+item.spawn_egg.entity.cyd:bear.name=Spawn Bear
+
+entity.cyd:bunny.name=Bunny
+item.spawn_egg.entity.cyd:bunny.name=Spawn Bunny
+
+entity.cyd:bunnybabies.name=Bunny Babies
+item.spawn_egg.entity.cyd:bunnybabies.name=Spawn Bunny Baby
+
+entity.cyd:sheep.name=Flower Sheep
+item.spawn_egg.entity.cyd:sheep.name=Spawn Flower Sheep
+
+entity.cyd:elephant.name=Elephant
+item.spawn_egg.entity.cyd:elephant.name=Spawn Elephant
+
+entity.cyd:ghostmonkey.name=Ghost Monkey
+
+entity.cyd:monkey.name=Monkey
+item.spawn_egg.entity.cyd:monkey.name=Spawn Monkey
+
+entity.cyd:giraffe.name=Giraffe
+item.spawn_egg.entity.cyd:giraffe.name=Spawn Giraffe
+
+entity.cyd:hippo.name=Hippo
+item.spawn_egg.entity.cyd:hippo.name=Spawn Hippo
+
+entity.cyd:kangaroo.name=Kangaroo
+item.spawn_egg.entity.cyd:kangaroo.name=Spawn Kangaroo
+
+entity.cyd:lion.name=Lion
+item.spawn_egg.entity.cyd:lion.name=Spawn Lion
+
+entity.cyd:mouse.name=Mouse
+item.spawn_egg.entity.cyd:mouse.name=Spawn Mouse
+
+entity.cyd:panther.name=Panther
+item.spawn_egg.entity.cyd:panther.name=Spawn Panther
+
+entity.cyd:pelican.name=Pelican
+item.spawn_egg.entity.cyd:pelican.name=Spawn Pelican
+
+entity.cyd:penguin.name=Penguin
+item.spawn_egg.entity.cyd:penguin.name=Spawn Penguin
+
+entity.cyd:pig.name=Mechanic Pig
+item.spawn_egg.entity.cyd:pig.name=Spawn Mechanic Pig
+
+entity.cyd:pigeon.name=Pigeon
+item.spawn_egg.entity.cyd:pigeon.name=Spawn Pigeon
+
+entity.cyd:rhino.name=Rhino
+item.spawn_egg.entity.cyd:rhino.name=Spawn Rhino
+
+entity.cyd:rooster.name=Rooster
+item.spawn_egg.entity.cyd:rooster.name=Spawn Rooster
+
+entity.cyd:stork.name=Stork
+item.spawn_egg.entity.cyd:stork.name=Spawn Stork
+
+entity.cyd:zebra.name=Zebra
+item.spawn_egg.entity.cyd:zebra.name=Spawn Zebra
+
+entity.vehicle:alligator.name=Alligator Fire Truck
+item.spawn_egg.entity.vehicle:alligator.name=Spawn Alligator Fire Truck
+
+entity.vehicle:bear.name=Bear School Bus
+item.spawn_egg.entity.vehicle:bear.name=Spawn Bear School Bus
+
+entity.vehicle:chicken.name=Chicken Farming Pickup Truck
+item.spawn_egg.entity.vehicle:chicken.name=Spawn Chicken Farming Pickup Truck
+
+entity.vehicle:hippo.name=Hippo Trash Car
+item.spawn_egg.entity.vehicle:hippo.name=Spawn Hippo Trash Car
+
+entity.vehicle:jetski.name=Penguin Jetski
+item.spawn_egg.entity.vehicle:jetski.name=Spawn Penguin Jetski
+
+entity.vehicle:mouse.name=Mouse Cheese Car
+item.spawn_egg.entity.vehicle:mouse.name=Spawn Mouse Cheese Car
+
+entity.vehicle:pigeon.name=Pigeon Air Balloon
+item.spawn_egg.entity.vehicle:pigeon.name=Spawn Pigeon Air Balloon
+
+entity.vehicle:rhino.name=Rhino Chopper
+item.spawn_egg.entity.vehicle:rhino.name=Spawn Rhino Chopper
+
+entity.vehicle:sled.name=Sled
+item.spawn_egg.entity.vehicle:sled.name=Spawn Sled
+
+entity.vehicle:zebra.name=Zebra Police Car
+item.spawn_egg.entity.vehicle:zebra.name=Spawn Zebra Police Car
+
+entity.vehicle:bunny.name=Bunny Ambulance
+item.spawn_egg.entity.vehicle:bunny.name=Spawn Bunny Ambulance
+
+entity.cyd:mail.name=Mailbox
+item.spawn_egg.entity.cyd:mail.name=Spawn Mailbox
+
+
+entity.vehicle:stork.name=Stork Delivery Truck
+item.spawn_egg.entity.vehicle:stork.name=Spawn Stork Delivery Truck
+
+entity.boat.name=Jetski
+
+action.hint.exit.boat=Tap jump to exit the jetski
+action.hint.exit.vehicle:alligator=Tap sneak to exit
+action.hint.exit.vehicle:bear=Tap sneak to exit
+action.hint.exit.vehicle:bunny=Tap sneak to exit
+action.hint.exit.vehicle:chicken=Tap sneak to exit
+action.hint.exit.vehicle:hippo=Tap sneak to exit
+action.hint.exit.vehicle:mouse=Tap sneak to exit
+action.hint.exit.vehicle:pigeon=Tap sneak to exit
+action.hint.exit.vehicle:rhino=Tap sneak to exit
+action.hint.exit.vehicle:sled=Tap sneak to exit
+action.hint.exit.vehicle:stork=Tap sneak to exit
+action.hint.exit.vehicle:zebra=Tap sneak to exit
+
+item.cyd:goback.name=Right click to go back to your checkpoint!
+
+

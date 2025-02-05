@@ -1,0 +1,1 @@
+tellraw @a {"rawtext":[{"text":"§a§l<Humorous Giraffe>§r Actually, I'm struggling to build this theatre alone in time for my show on Tuesday. Can you help me out? I must have a stage on which to perform my act!"}]}

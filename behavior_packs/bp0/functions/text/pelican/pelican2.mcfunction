@@ -1,0 +1,1 @@
+tellraw @a {"rawtext":[{"text":"§a§l<Adventurous Pelican>§r I would say this is the perfect place for one, don't you reckon'?"}]}

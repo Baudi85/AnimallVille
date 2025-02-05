@@ -1,0 +1,1 @@
+tellraw @a {"rawtext":[{"text":"§a§l<Firefighter Alligator>§r We've recently come into possession of a new fleet of firetrucks, but they're too tall to fit inside the garage! "}]}

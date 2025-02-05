@@ -1,0 +1,129 @@
+{
+	"format_version": "1.10.0",
+	"geometry.Vehicle_zebra": {
+		"texturewidth": 512,
+		"textureheight": 512,
+		"visible_bounds_width": 9,
+		"visible_bounds_height": 5,
+		"visible_bounds_offset": [0, 2.5, 0],
+		"bones": [
+			{
+				"name": "Vehicle_Zebra",
+				"pivot": [0, 5, 0]
+			},
+			{
+				"name": "Body",
+				"parent": "Vehicle_Zebra",
+				"pivot": [0, 5, 0],
+				"cubes": [
+					{"origin": [-21.5, 6.5, -52], "size": [41, 22, 25], "uv": [0, 233]},
+					{"origin": [-19, 60, -4], "size": [36, 8, 9], "uv": [0, 280]},
+					{"origin": [-1.5, 23.5, -27.5], "size": [4, 4, 5.5], "uv": [42, 347]},
+					{"origin": [-9, 17.5, 23], "size": [16, 24.5, 3.5], "uv": [38, 302]},
+					{"origin": [-12.5, 6.5, 8], "size": [23, 11, 18.5], "uv": [132, 233]},
+					{"origin": [-12.5, 17.5, 8], "size": [5, 3, 19], "uv": [234, 280]},
+					{"origin": [5.5, 17.5, 8], "size": [5, 3, 19], "uv": [90, 280]},
+					{"origin": [5.5, 20.5, 21], "size": [5, 11, 6], "uv": [96, 329]},
+					{"origin": [-12.5, 20.5, 21], "size": [5, 11, 6], "uv": [118, 329]},
+					{"origin": [-12.5, 20.5, -6], "size": [5, 11, 6], "uv": [162, 329]},
+					{"origin": [-9, 17.5, -4], "size": [16, 24.5, 3.5], "uv": [0, 302]},
+					{"origin": [5.5, 20.5, -6], "size": [5, 11, 6], "uv": [140, 329]},
+					{"origin": [-12.5, 6.5, -19], "size": [23, 11, 18.5], "uv": [214, 233]},
+					{"origin": [5.5, 17.5, -19], "size": [5, 3, 19], "uv": [138, 280]},
+					{"origin": [-12.5, 17.5, -19], "size": [5, 3, 19], "uv": [186, 280]},
+					{"origin": [-21.5, 6.5, 28.5], "size": [41, 22, 25.5], "uv": [122, 156]},
+					{"origin": [-21.5, 6.5, -27], "size": [6, 22, 55.5], "uv": [0, 156]},
+					{"origin": [13.5, 6.5, -27], "size": [6, 22, 55.5], "uv": [192, 79]},
+					{"origin": [-4.5, 68, -3], "size": [7, 9, 6], "uv": [0, 329]},
+					{"origin": [-21.5, 3.5, -27], "size": [41, 3, 55.5], "uv": [0, 79]},
+					{"origin": [-21.5, 53, -27], "size": [41, 7, 55.5], "uv": [192, 0]}
+				]
+			},
+			{
+				"name": "tail",
+				"parent": "Body",
+				"pivot": [0, 24, 54],
+				"cubes": [
+					{"origin": [-3, 22, 54], "size": [4, 4, 9], "uv": [70, 329]},
+					{"origin": [-3, 22, 63], "size": [4, 15, 3], "uv": [206, 329]},
+					{"origin": [-3, 34, 66], "size": [4, 3, 6], "uv": [22, 347]},
+					{"origin": [-4, 27, 72], "size": [6, 10, 5], "uv": [184, 329]}
+				]
+			},
+			{
+				"name": "rightear",
+				"parent": "Body",
+				"pivot": [-19, 58, -20],
+				"cubes": [
+					{"origin": [-25.5, 57, -22], "size": [8, 15, 3.5], "uv": [48, 329]}
+				]
+			},
+			{
+				"name": "leftear",
+				"parent": "Body",
+				"pivot": [18, 58, -20],
+				"cubes": [
+					{"origin": [16.5, 57, -22], "size": [8, 15, 3.5], "uv": [26, 329]}
+				]
+			},
+			{
+				"name": "Steering Wheel",
+				"parent": "Body",
+				"pivot": [0.5, 25.5, -21.5],
+				"cubes": [
+					{"origin": [-4.5, 22.5, -22], "size": [10, 7, 1], "uv": [0, 347]}
+				]
+			},
+			{
+				"name": "Window",
+				"parent": "Body",
+				"pivot": [0, 5, 0],
+				"cubes": [
+					{"origin": [-21.5, 28.5, -27], "size": [41, 24.5, 55.5], "uv": [0, 0]}
+				]
+			},
+			{
+				"name": "wheelback",
+				"parent": "Vehicle_Zebra",
+				"pivot": [0, 6, 41]
+			},
+			{
+				"name": "WheelBackLeft",
+				"parent": "wheelback",
+				"pivot": [23, 10, 17.5],
+				"cubes": [
+					{"origin": [14.5, 0.5, 35], "size": [6, 12, 12], "uv": [76, 302]}
+				]
+			},
+			{
+				"name": "WheelBackRight",
+				"parent": "wheelback",
+				"pivot": [-22, 10, 17.5],
+				"cubes": [
+					{"origin": [-22.5, 0.5, 35], "size": [6, 12, 12], "uv": [112, 302]}
+				]
+			},
+			{
+				"name": "wheelfront",
+				"parent": "Vehicle_Zebra",
+				"pivot": [0, 6, -39]
+			},
+			{
+				"name": "WheelFrontRight",
+				"parent": "wheelfront",
+				"pivot": [-22, 10, -20.5],
+				"cubes": [
+					{"origin": [-22.5, 0.5, -45], "size": [6, 12, 12], "uv": [148, 302]}
+				]
+			},
+			{
+				"name": "WheelFrontLeft",
+				"parent": "wheelfront",
+				"pivot": [23, 10, -20.5],
+				"cubes": [
+					{"origin": [14.5, 0.5, -45], "size": [6, 12, 12], "uv": [184, 302]}
+				]
+			}
+		]
+	}
+}

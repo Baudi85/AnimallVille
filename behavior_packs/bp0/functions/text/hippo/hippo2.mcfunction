@@ -1,0 +1,1 @@
+tellraw @a {"rawtext":[{"text":"§a§l<Lazy Hippo>§r This lot would be the perfect place for a furniture store..."}]}

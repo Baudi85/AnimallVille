@@ -1,0 +1,2 @@
+playsound cyd.elephant @a
+tellraw @a {"rawtext":[{"text":"§a§l<Fancy Elephant>§r I've been making all these dresses with no place to properly show them off! Where is an elephant supposed to strut their stuff?"}]}

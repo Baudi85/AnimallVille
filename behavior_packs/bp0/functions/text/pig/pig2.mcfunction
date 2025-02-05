@@ -1,0 +1,1 @@
+tellraw @a {"rawtext":[{"text":"§a§l<Mechanician Pig>§r This city is lacking in proper vehicle dealerships, so I want to be the first to open one! Yet first, we must build it."}]}

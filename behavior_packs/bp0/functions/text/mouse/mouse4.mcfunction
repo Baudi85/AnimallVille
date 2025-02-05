@@ -1,0 +1,1 @@
+tellraw @a {"rawtext":[{"text":"§a§l<Tourist Mouse>§r Have fun!"}]}

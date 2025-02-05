@@ -1,0 +1,1 @@
+tellraw @a {"rawtext":[{"text":"§a§l<Rich Lion>§r You know what else is reflective? Water. How is someone like me missing a pool at my stunning mansion? I don't want to get my hands dirty. You'll help, right?"}]}

@@ -1,0 +1,286 @@
+{
+  "cyd.background": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/mob/background",
+        "volume": 0.5,
+        "stream": true
+      }
+    ]
+  },
+  "cyd.car": {
+    "category": "nature",
+    "sounds": [
+      {
+        "name": "sounds/mob/bike/engine_jeep_1",
+        "volume": 0.1
+      },
+      {
+        "name": "sounds/mob/bike/engine_jeep_2",
+        "volume": 0.1
+      },
+      {
+        "name": "sounds/mob/bike/engine_jeep_3",
+        "volume": 0.1
+      }
+    ]
+  },
+  "cyd.bike": {
+    "category": "nature",
+    "sounds": [
+      {
+        "name": "sounds/mob/bike/engine_bike_1",
+        "volume": 0.1
+      },
+      {
+        "name": "sounds/mob/bike/engine_bike_2",
+        "volume": 0.1
+      }
+    ]
+  },
+  "cyd.pelican": {
+    "category": "nature",
+    "sounds": [
+      {
+        "name": "sounds/mob/cyd/Adventurous Pelican bis",
+        "volume": 1
+      },
+      {
+        "name": "sounds/mob/cyd/Adventurous Pelican",
+        "volume": 1
+      }
+    ]
+  },
+  "cyd.aligator": {
+    "category": "nature",
+    "sounds": [
+      {
+        "name": "sounds/mob/cyd/Aligator Firefighter",
+        "volume": 1
+      }
+    ]
+  },
+  "cyd.kangaroo": {
+    "category": "nature",
+    "sounds": [
+      {
+        "name": "sounds/mob/cyd/Boxer Kangaroo bis",
+        "volume": 1
+      },
+      {
+        "name": "sounds/mob/cyd/Boxer Kangaroo",
+        "volume": 1
+      }
+    ]
+  },
+  "cyd.bunny": {
+    "category": "nature",
+    "sounds": [
+      {
+        "name": "sounds/mob/cyd/Bunny Nurse bis",
+        "volume": 1
+      },
+      {
+        "name": "sounds/mob/cyd/Bunny Nurse",
+        "volume": 1
+      }
+    ]
+  },
+  "cyd.bear": {
+    "category": "nature",
+    "sounds": [
+      {
+        "name": "sounds/mob/cyd/Bus Driver Bear",
+        "volume": 1
+      }
+    ]
+  },
+  "cyd.chicken": {
+    "category": "nature",
+    "sounds": [
+      {
+        "name": "sounds/mob/cyd/Chicken Farmer bis",
+        "volume": 1
+      },
+      {
+        "name": "sounds/mob/cyd/Chicken Farmer",
+        "volume": 1
+      }
+    ]
+  },
+  "cyd.elephant": {
+    "category": "nature",
+    "sounds": [
+      {
+        "name": "sounds/mob/cyd/Fancy Elephant bis",
+        "volume": 1
+      },
+      {
+        "name": "sounds/mob/cyd/Fancy Elephant",
+        "volume": 1
+      }
+    ]
+  },
+  "cyd.pig": {
+    "category": "nature",
+    "sounds": [
+      {
+        "name": "sounds/mob/cyd/Garage Shop Pig bis",
+        "volume": 1
+      },
+      {
+        "name": "sounds/mob/cyd/Garage Shop Pig",
+        "volume": 1
+      }
+    ]
+  },
+  "cyd.penguin": {
+    "category": "nature",
+    "sounds": [
+      {
+        "name": "sounds/mob/cyd/Handsome Penguin bis",
+        "volume": 1
+      },
+      {
+        "name": "sounds/mob/cyd/Handsome Penguin",
+        "volume": 1
+      }
+    ]
+  },
+  "cyd.giraffe": {
+    "category": "nature",
+    "sounds": [
+      {
+        "name": "sounds/mob/cyd/Humoristic Giraffe bis",
+        "volume": 1
+      },
+      {
+        "name": "sounds/mob/cyd/Humoristic Giraffe",
+        "volume": 1
+      }
+    ]
+  },
+  "cyd.hippo": {
+    "category": "nature",
+    "sounds": [
+      {
+        "name": "sounds/mob/cyd/Lazy Hippo bis",
+        "volume": 1
+      },
+      {
+        "name": "sounds/mob/cyd/Lazy Hippo",
+        "volume": 1
+      }
+    ]
+  },
+  "cyd.monkey": {
+    "category": "nature",
+    "sounds": [
+      {
+        "name": "sounds/mob/cyd/Monkey Fruit Vendor bis",
+        "volume": 1
+      },
+      {
+        "name": "sounds/mob/cyd/Monkey Fruit Vendor",
+        "volume": 1
+      }
+    ]
+  },
+  "cyd.panther": {
+    "category": "nature",
+    "sounds": [
+      {
+        "name": "sounds/mob/cyd/Pharaoh Panther",
+        "volume": 1
+      }
+    ]
+  },
+  "cyd.pigeon": {
+    "category": "nature",
+    "sounds": [
+      {
+        "name": "sounds/mob/cyd/Pigeon Pilot bis",
+        "volume": 1
+      },
+      {
+        "name": "sounds/mob/cyd/Pigeon Pilot",
+        "volume": 1
+      }
+    ]
+  },
+  "cyd.zebra": {
+    "category": "nature",
+    "sounds": [
+      {
+        "name": "sounds/mob/cyd/Police Zebra",
+        "volume": 1
+      }
+    ]
+  },
+  "cyd.stork": {
+    "category": "nature",
+    "sounds": [
+      {
+        "name": "sounds/mob/cyd/Postman Stork bis",
+        "volume": 1
+      },
+      {
+        "name": "sounds/mob/cyd/Postman Stork",
+        "volume": 1
+      }
+    ]
+  },
+  "cyd.lion": {
+    "category": "nature",
+    "sounds": [
+      {
+        "name": "sounds/mob/cyd/Rich Lion bis",
+        "volume": 1
+      },
+      {
+        "name": "sounds/mob/cyd/Rich Lion",
+        "volume": 1
+      }
+    ]
+  },
+  "cyd.rhino": {
+    "category": "nature",
+    "sounds": [
+      {
+        "name": "sounds/mob/cyd/Rocker Rhino bis",
+        "volume": 1
+      },
+      {
+        "name": "sounds/mob/cyd/Rocker Rhino",
+        "volume": 1
+      }
+    ]
+  },
+  "cyd.sheep": {
+    "category": "nature",
+    "sounds": [
+      {
+        "name": "sounds/mob/cyd/ShySheep bis",
+        "volume": 1
+      },
+      {
+        "name": "sounds/mob/cyd/ShySheep",
+        "volume": 1
+      }
+    ]
+  },
+  "cyd.mouse": {
+    "category": "nature",
+    "sounds": [
+      {
+        "name": "sounds/mob/cyd/Tourist Mouse bis",
+        "volume": 1
+      },
+      {
+        "name": "sounds/mob/cyd/Tourist Mouse",
+        "volume": 1
+      }
+    ]
+  }
+}

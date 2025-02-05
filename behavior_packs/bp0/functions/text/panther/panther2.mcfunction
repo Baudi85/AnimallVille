@@ -1,0 +1,1 @@
+tellraw @a {"rawtext":[{"text":"§a§l<Pharaoh Panther>§r Well... That's the slogan if I HAD one. This looks like the perfect place to build a hotel, don't you think?"}]}

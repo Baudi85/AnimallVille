@@ -1,0 +1,1 @@
+tellraw @a {"rawtext":[{"text":"§a§l<Fancy Elephant>§r I really think this place could do with a spruce-up into a beautiful ballroom... Just imagine everyone in their gorgeous clothes!"}]}

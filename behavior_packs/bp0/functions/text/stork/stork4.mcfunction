@@ -1,0 +1,1 @@
+tellraw @a {"rawtext":[{"text":"§a§l<Postman Stork>§r Materials have been dispatched to each location for building efficiency."}]}

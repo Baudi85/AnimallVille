@@ -1,0 +1,1 @@
+tellraw @a {"rawtext":[{"text":"§a§l<Fruit Shop Monkey>§r Yes? Well, maybe I could spare a few if you would help me build some hut homes for my friends. There are multiple construction zones in the area that would be perfect for them!"}]}

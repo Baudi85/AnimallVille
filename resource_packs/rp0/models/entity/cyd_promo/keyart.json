@@ -1,0 +1,19 @@
+{
+	"format_version": "1.10.0",
+	"geometry.cyd.keyart": {
+		"texturewidth": 1118,
+		"textureheight": 629,
+		"visible_bounds_width": 66,
+		"visible_bounds_height": 37,
+		"visible_bounds_offset": [0, 13, 0],
+		"bones": [
+			{
+				"name": "base",
+				"pivot": [0, 0, 0],
+				"cubes": [
+					{"origin": [-150, 1, 0], "size": [1118, 629, 1], "uv": [0, 0]}
+				]
+			}
+		]
+	}
+}

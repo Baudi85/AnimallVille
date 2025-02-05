@@ -1,0 +1,123 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "vehicle:chicken",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+
+    "component_groups": {
+     "breakdown":{
+       "minecraft:type_family": {
+         "family": [ "breakdown"]
+       }
+     }
+    },
+
+    "components": {
+      "minecraft:damage_sensor": [
+        {
+
+          "deals_damage": false
+        }
+      ],
+      "minecraft:timer": {
+        "looping": true,
+        "time": 0.1,
+        "time_down_event": {
+          "event": "cyd:tagcheck",
+          "target": "self"
+        }
+      },
+      "minecraft:pushable": {
+        "is_pushable": false
+      },
+      "minecraft:is_stackable": {
+      },
+
+      "minecraft:type_family": {
+        "family": [ "vehicle"]
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0
+      },
+      "minecraft:collision_box": {
+        "width": 2,
+        "height": 3
+      },
+      "minecraft:health": {
+        "value": 10,
+        "max": 10
+      },
+      "minecraft:rideable": {
+        "priority": 0,
+        "seat_count": 1,
+        "crouching_skip_interact": true,
+        "family_types": [
+          "player"
+        ],
+        "seats": {
+          "position": [ 0.0, 1.1, 0.7 ]
+        }
+
+      },
+      "minecraft:inventory": {
+        "inventory_size": 2,
+        "container_type": "horse"
+      },
+      "minecraft:scale": {
+        "value": 0.75
+      },
+      "minecraft:input_ground_controlled": {
+      },
+      "minecraft:movement": {
+        "value": {
+          "range_min": 0.2,
+          "range_max": 0.2
+        }
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true
+      },
+      "minecraft:movement.basic": {
+      },
+
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+
+      "minecraft:physics": {
+      }
+    },
+
+    "events": {
+      "cyd:tagcheck": {
+        "sequence": [
+          {
+            "filters": {
+              "all_of": [
+                {"test": "has_tag", "operator": "equals", "value": "breakdown", "subject": "self"}
+              ]
+            },
+            "add": {"component_groups": ["breakdown"]}
+          },
+          {
+            "filters": {
+              "all_of": [
+                {"test": "has_tag", "operator": "equals", "value": "nobreakdown", "subject": "self"}
+              ]
+            },
+            "remove": {"component_groups": ["breakdown"]}
+          }
+        ]
+      }
+    }
+  }
+}

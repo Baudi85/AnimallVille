@@ -1,0 +1,2 @@
+playsound cyd.lion @a
+tellraw @a {"rawtext":[{"text":"§a§l<Rich Lion>§r Shiny things are so, so elegantly beautiful, don't you agree? That reflective surface with my dashing face staring back at me is just utterly to die for!"}]}

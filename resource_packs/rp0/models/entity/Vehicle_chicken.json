@@ -1,0 +1,138 @@
+{
+	"format_version": "1.10.0",
+	"geometry.Vehicle_chicken": {
+		"texturewidth": 512,
+		"textureheight": 512,
+		"visible_bounds_width": 6,
+		"visible_bounds_height": 4,
+		"visible_bounds_offset": [0, 2, 0],
+		"bones": [
+			{
+				"name": "ChickenFarmingPickup",
+				"pivot": [0, 20, -24]
+			},
+			{
+				"name": "Body",
+				"parent": "ChickenFarmingPickup",
+				"pivot": [0, 8, -11],
+				"cubes": [
+					{"origin": [-15.5, 5.5, -52.2], "size": [32, 23, 25.2], "uv": [260, 0]},
+					{"origin": [-13.5, 50, -27], "size": [28, 2, 24.5], "uv": [84, 111]},
+					{"origin": [-13.5, 5.5, 0], "size": [28, 11, 37], "uv": [0, 0]},
+					{"origin": [-18.5, 5.5, -27], "size": [38, 6, 27], "uv": [130, 0]},
+					{"origin": [-6, 11, -21], "size": [14.5, 3.5, 18.5], "uv": [96, 265]},
+					{"origin": [-6, 14.5, -6], "size": [14.5, 24.5, 3.5], "uv": [176, 306]},
+					{"origin": [-10.5, 11.5, -21], "size": [5, 6, 19], "uv": [0, 306]},
+					{"origin": [-10.5, 17.5, -8], "size": [5, 11, 6], "uv": [22, 336]},
+					{"origin": [-0.5, 24.5, -27.5], "size": [4, 5, 5.5], "uv": [110, 336]},
+					{"origin": [7.5, 17.5, -8], "size": [5, 11, 6], "uv": [0, 336]},
+					{"origin": [7.5, 11.5, -21], "size": [5, 6, 19], "uv": [216, 265]},
+					{"origin": [-15.5, 5.5, 0], "size": [2, 26, 37], "uv": [0, 48]},
+					{"origin": [14.5, 5.5, 0], "size": [2, 26, 37], "uv": [78, 48]},
+					{"origin": [-15.5, 11.5, -2.5], "size": [32, 40.5, 2.5], "uv": [0, 165]},
+					{"origin": [-22.5, 6.5, 1.5], "size": [7, 19, 35.5], "uv": [156, 48]},
+					{"origin": [16.5, 6.5, 1.5], "size": [7, 19, 35.5], "uv": [0, 111]},
+					{"origin": [16.5, 6.5, -49.5], "size": [7, 16, 26.5], "uv": [68, 165]},
+					{"origin": [-22.5, 6.5, -49.5], "size": [7, 16, 26.5], "uv": [134, 165]},
+					{"origin": [-6.5, 26, -40.2], "size": [13, 7, 12.7], "uv": [48, 306]},
+					{"origin": [8.5, 2.5, 37], "size": [10, 10, 1], "uv": [44, 336]},
+					{"origin": [-17.5, 2.5, 37], "size": [10, 10, 1], "uv": [66, 336]},
+					{"origin": [14.5, 6.5, -27], "size": [2, 26, 24.5], "uv": [200, 165]},
+					{"origin": [-15.5, 6.5, -27], "size": [2, 26.5, 24.5], "uv": [0, 215]}
+				]
+			},
+			{
+				"name": "crest",
+				"parent": "Body",
+				"pivot": [0.5, 52, -15],
+				"cubes": [
+					{"origin": [-2.5, 52, -21], "size": [6, 8, 15], "uv": [134, 306]}
+				]
+			},
+			{
+				"name": "box3",
+				"parent": "Body",
+				"pivot": [-4, 26, 10],
+				"cubes": [
+					{"origin": [-13.5, 16.5, 0], "size": [19.5, 19, 21], "uv": [188, 111]}
+				]
+			},
+			{
+				"name": "box2",
+				"parent": "Body",
+				"pivot": [10, 22, 15],
+				"cubes": [
+					{"origin": [6, 16.5, 10], "size": [8.5, 10, 10], "uv": [210, 306]}
+				]
+			},
+			{
+				"name": "box1",
+				"parent": "Body",
+				"pivot": [10, 31, 5],
+				"cubes": [
+					{"origin": [6, 16.5, 0], "size": [8.5, 20, 10], "uv": [98, 306]}
+				]
+			},
+			{
+				"name": "Steering Wheel",
+				"parent": "Body",
+				"pivot": [1.5, 27.5, -21.5],
+				"cubes": [
+					{"origin": [-3.5, 23.5, -22], "size": [10, 8, 1], "uv": [88, 336]}
+				]
+			},
+			{
+				"name": "Window",
+				"parent": "Body",
+				"pivot": [0, 5, 0],
+				"cubes": [
+					{"origin": [14.5, 32.5, -27], "size": [0, 17.5, 24.5], "uv": [48, 265]},
+					{"origin": [-13.5, 32.5, -27], "size": [0, 17.5, 24.5], "uv": [0, 265]},
+					{"origin": [-13.5, 28.5, -27], "size": [28, 21.5, 0], "uv": [160, 265]}
+				]
+			},
+			{
+				"name": "wheelfront",
+				"parent": "ChickenFarmingPickup",
+				"pivot": [0, 10, -36.5]
+			},
+			{
+				"name": "WheelFrontLeft",
+				"parent": "wheelfront",
+				"pivot": [23, 10, -20.5],
+				"cubes": [
+					{"origin": [15.5, 0.5, -46], "size": [7, 19, 19], "uv": [164, 215]}
+				]
+			},
+			{
+				"name": "WheelFrontRight",
+				"parent": "wheelfront",
+				"pivot": [-22, 10, -20.5],
+				"cubes": [
+					{"origin": [-21.5, 0.5, -46], "size": [7, 19, 19], "uv": [216, 215]}
+				]
+			},
+			{
+				"name": "wheelback",
+				"parent": "ChickenFarmingPickup",
+				"pivot": [0, 10, 18]
+			},
+			{
+				"name": "WheelBackRight",
+				"parent": "wheelback",
+				"pivot": [-22, 10, 17.5],
+				"cubes": [
+					{"origin": [-23.5, 0.5, 8], "size": [9, 19, 19], "uv": [108, 215]}
+				]
+			},
+			{
+				"name": "WheelBackLeft",
+				"parent": "wheelback",
+				"pivot": [23, 10, 17.5],
+				"cubes": [
+					{"origin": [15.5, 0.5, 8], "size": [9, 19, 19], "uv": [52, 215]}
+				]
+			}
+		]
+	}
+}

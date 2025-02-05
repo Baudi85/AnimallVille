@@ -1,0 +1,2 @@
+playsound cyd.penguin @a
+tellraw @a {"rawtext":[{"text":"§a§l<Handsome Penguin>§r My penguin brothers keep crashing into the rocks at night, so I figured we could do with a lighthouse on this massive piece of rock."}]}

@@ -1,0 +1,1 @@
+tellraw @a {"rawtext":[{"text":"§a§l<Farmer Chicken>§r Crops, buildings, wh'ever you can imagine! We've been selling simple wheat for too long... Do you like getting your hands muddy?"}]}

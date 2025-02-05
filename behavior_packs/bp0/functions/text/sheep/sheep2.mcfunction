@@ -1,0 +1,1 @@
+tellraw @a {"rawtext":[{"text":"§a§l<Shy Sheep>§r Flowers are the most beautiful things I have seen. The world deserves to be populated with them! I've noticed a lack of gardens to my taste around the outer areas. Would you mind planting some flowers to add life and colour?"}]}

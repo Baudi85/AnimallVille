@@ -1,0 +1,564 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "vehicle:zebra": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "",
+          "hurt": "",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "cyd.car",
+            "volume": 1,
+            "pitch": 1
+          }
+        }
+      },
+      "vehicle:bear": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "",
+          "hurt": "",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "cyd.car",
+            "volume": 1,
+            "pitch": 1
+          }
+        }
+      },
+      "vehicle:bunny": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "",
+          "hurt": "",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "cyd.car",
+            "volume": 1,
+            "pitch": 1
+          }
+        }
+      },
+      "vehicle:chicken": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "",
+          "hurt": "",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "cyd.car",
+            "volume": 1,
+            "pitch": 1
+          }
+        }
+      },
+      "vehicle:hippo": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "",
+          "hurt": "",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "cyd.car",
+            "volume": 1,
+            "pitch": 1
+          }
+        }
+      },
+      "vehicle:mouse": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "",
+          "hurt": "",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "cyd.car",
+            "volume": 1,
+            "pitch": 1
+          }
+        }
+      },
+      "vehicle:alligator": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "",
+          "hurt": "",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "cyd.car",
+            "volume": 1,
+            "pitch": 1
+          }
+        }
+      },
+      "vehicle:pigeon": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "",
+          "hurt": "",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "cyd.car",
+            "volume": 1,
+            "pitch": 1
+          }
+        }
+      },
+      "vehicle:rhino": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "",
+          "hurt": "",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "cyd.bike",
+            "volume": 1,
+            "pitch": 1
+          }
+        }
+      },
+      "vehicle:stork": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "",
+          "hurt": "",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "cyd.bike",
+            "volume": 1,
+            "pitch": 1
+          }
+        }
+      },
+      "cyd:alligator": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "cyd.aligator",
+          "hurt": "cyd.aligator",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "",
+            "volume": "",
+            "pitch": ""
+          }
+        }
+      },
+      "cyd:bear": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "cyd.bear",
+          "hurt": "cyd.bear",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "",
+            "volume": "",
+            "pitch": ""
+          }
+        }
+      },
+      "cyd:bunny": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "cyd.bunny",
+          "hurt": "cyd.bunny",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "",
+            "volume": "",
+            "pitch": ""
+          }
+        }
+      },
+      "cyd:bunnybabies": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "cyd.bunny",
+          "hurt": "cyd.bunny",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "",
+            "volume": "",
+            "pitch": ""
+          }
+        }
+      },
+      "cyd:pig": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "cyd.pig",
+          "hurt": "cyd.pig",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "",
+            "volume": "",
+            "pitch": ""
+          }
+        }
+      },
+      "cyd:sheep": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "cyd.sheep",
+          "hurt": "cyd.sheep",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "",
+            "volume": "",
+            "pitch": ""
+          }
+        }
+      },
+      "cyd:elephant": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "cyd.elephant",
+          "hurt": "cyd.elephant",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "",
+            "volume": "",
+            "pitch": ""
+          }
+        }
+      },
+      "cyd:giraffe": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "cyd.giraffe",
+          "hurt": "cyd.giraffe",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "",
+            "volume": "",
+            "pitch": ""
+          }
+        }
+      },
+      "cyd:hippo": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "cyd.hippo",
+          "hurt": "cyd.hippo",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "",
+            "volume": "",
+            "pitch": ""
+          }
+        }
+      },
+      "cyd:kangaroo": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "cyd.kangaroo",
+          "hurt": "cyd.kangaroo",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "",
+            "volume": "",
+            "pitch": ""
+          }
+        }
+      },
+      "cyd:lion": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "cyd.lion",
+          "hurt": "cyd.lion",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "",
+            "volume": "",
+            "pitch": ""
+          }
+        }
+      },
+      "cyd:monkey": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "cyd.monkey",
+          "hurt": "cyd.monkey",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "",
+            "volume": "",
+            "pitch": ""
+          }
+        }
+      },
+      "cyd:mouse": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "cyd.mouse",
+          "hurt": "cyd.mouse",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "",
+            "volume": "",
+            "pitch": ""
+          }
+        }
+      },
+      "cyd:panther": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "cyd.panther",
+          "hurt": "cyd.panther",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "",
+            "volume": "",
+            "pitch": ""
+          }
+        }
+      },
+      "cyd:pelican": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "cyd.pelican",
+          "hurt": "cyd.pelican",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "",
+            "volume": "",
+            "pitch": ""
+          }
+        }
+      },
+      "cyd:penguin": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "cyd.penguin",
+          "hurt": "cyd.penguin",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "",
+            "volume": "",
+            "pitch": ""
+          }
+        }
+      },
+      "cyd:pigeon": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "cyd.pigeon",
+          "hurt": "cyd.pigeon",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "",
+            "volume": "",
+            "pitch": ""
+          }
+        }
+      },
+      "cyd:rhino": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "cyd.rhino",
+          "hurt": "cyd.rhino",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "",
+            "volume": "",
+            "pitch": ""
+          }
+        }
+      },
+      "cyd:rooster": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "cyd.bunny",
+          "hurt": "cyd.bunny",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "",
+            "volume": "",
+            "pitch": ""
+          }
+        }
+      },
+      "cyd:stork": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "cyd.stork",
+          "hurt": "cyd.stork",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "",
+            "volume": "",
+            "pitch": ""
+          }
+        }
+      },
+      "cyd:zebra": {
+        "volume": 1,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "cyd.zebra",
+          "hurt": "cyd.zebra",
+          "death": "",
+          "shoot": "",
+          "step": {
+            "sound": "",
+            "volume": "",
+            "pitch": ""
+          }
+        }
+      }
+    }
+  }
+}

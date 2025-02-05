@@ -1,0 +1,1 @@
+tellraw @a {"rawtext":[{"text":"§a§l<Tourist Mouse>§r I've brought your belongings over, but unfortunately you've been stuck with this incomplete house. How would you envision the house if it were finished? The citizens of Animalia would love to see!"}]}

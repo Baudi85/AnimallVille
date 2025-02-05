@@ -1,0 +1,1 @@
+tellraw @a {"rawtext":[{"text":"§a§l<Nurse Bunny>§r I've bought a piece of land to build a small bunny day care center for them, but have no time to build the structure myself."}]}

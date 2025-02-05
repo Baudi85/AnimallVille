@@ -1,0 +1,91 @@
+{
+	"format_version": "1.10.0",
+	"geometry.Vehicle_stork": {
+		"texturewidth": 256,
+		"textureheight": 256,
+		"visible_bounds_width": 6,
+		"visible_bounds_height": 3,
+		"visible_bounds_offset": [0, 1.5, 0],
+		"bones": [
+			{
+				"name": "Vehicle_Stork",
+				"pivot": [0, 9, -27]
+			},
+			{
+				"name": "Body",
+				"parent": "Vehicle_Stork",
+				"pivot": [0.98611, 6.79167, -2.70833],
+				"cubes": [
+					{"origin": [-12.5, 6.5, -32], "size": [25, 19, 8], "uv": [120, 88]},
+					{"origin": [-12.5, 48, -24], "size": [25, 2, 61], "uv": [0, 0]},
+					{"origin": [-10.5, 6.5, 0], "size": [21, 15, 37], "uv": [0, 63]},
+					{"origin": [-12.5, 6.5, -24], "size": [25, 4, 21.5], "uv": [120, 63]},
+					{"origin": [-7, 10, -20], "size": [14, 7.5, 17.5], "uv": [82, 157]},
+					{"origin": [-7, 27.5, -6], "size": [14, 6.5, 3.5], "uv": [0, 52]},
+					{"origin": [-1.5, 22.5, -24.5], "size": [4, 5, 5.5], "uv": [41, 38]},
+					{"origin": [-12.5, 6.5, -2.5], "size": [2, 41.5, 39.5], "uv": [0, 118]},
+					{"origin": [10.5, 6.5, -2.5], "size": [2, 41.5, 39.5], "uv": [77, 77]},
+					{"origin": [-10.5, 6.5, -2.5], "size": [21, 41.5, 2.5], "uv": [0, 0]},
+					{"origin": [-21.5, 5.5, 9.5], "size": [9, 10, 19.5], "uv": [125, 174]},
+					{"origin": [-4.5, 6.5, -41], "size": [10, 10, 11], "uv": [82, 181]},
+					{"origin": [-7, 25.5, -31], "size": [14, 2.5, 7], "uv": [0, 43]},
+					{"origin": [-12, 21.5, 1], "size": [17.5, 15.5, 20], "uv": [139, 139]},
+					{"origin": [5.5, 21.5, 10], "size": [6.5, 5, 10], "uv": [0, 85]},
+					{"origin": [5.5, 21.5, 0], "size": [6.5, 15, 10], "uv": [43, 115]},
+					{"origin": [-4, 8.5, 37], "size": [8.5, 7, 3], "uv": [39, 49]},
+					{"origin": [12.5, 5.5, 9.5], "size": [9, 10, 19.5], "uv": [167, 96]}
+				]
+			},
+			{
+				"name": "Steering Wheel",
+				"parent": "Body",
+				"pivot": [0.5, 25.5, -18.5],
+				"cubes": [
+					{"origin": [-4.5, 21.5, -19], "size": [10, 8, 1], "uv": [79, 85]}
+				]
+			},
+			{
+				"name": "Window",
+				"parent": "Body",
+				"pivot": [0, 5, 0],
+				"cubes": [
+					{"origin": [-12.5, 10.5, -24], "size": [25, 38, 21.5], "uv": [111, 0]}
+				]
+			},
+			{
+				"name": "wheelback",
+				"parent": "Vehicle_Stork",
+				"pivot": [0, 6, 19.5]
+			},
+			{
+				"name": "WheelBackRight",
+				"parent": "wheelback",
+				"pivot": [-22, 10, 17.5],
+				"cubes": [
+					{"origin": [-20.5, 0.5, 14], "size": [7, 11, 11], "uv": [79, 63]}
+				]
+			},
+			{
+				"name": "WheelBackLeft",
+				"parent": "wheelback",
+				"pivot": [23, 10, 17.5],
+				"cubes": [
+					{"origin": [13.5, 0.5, 14], "size": [7, 11, 11], "uv": [0, 115]}
+				]
+			},
+			{
+				"name": "wheelfront",
+				"parent": "Vehicle_Stork",
+				"pivot": [0, 6, -32.5]
+			},
+			{
+				"name": "WheelFrontRight",
+				"parent": "wheelfront",
+				"pivot": [0, 6, -32.5],
+				"cubes": [
+					{"origin": [-3.5, 0.5, -38], "size": [7, 11, 11], "uv": [0, 63]}
+				]
+			}
+		]
+	}
+}

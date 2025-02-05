@@ -1,0 +1,187 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "cyd:egg",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "bat"
+    },
+    "component_groups": {
+      "hatch": {
+        "minecraft:is_shaking": {},
+        "minecraft:timer": {
+          "looping": false,
+          "time": 1,
+          "time_down_event": {
+            "event": "spawn"
+          }
+        }
+      },
+      "chick": {
+        "minecraft:transformation": {
+          "into": "cyd:chick",
+          "begin_transform_sound": "block.turtle_egg.crack",
+          "transformation_sound": "block.turtle_egg.break",
+          "keep_owner": true,
+          "delay": {
+            "value": 5
+          }
+        },
+        "minecraft:is_shaking": {}
+      },
+      "dino": {
+        "minecraft:transformation": {
+          "into": "cyd:dino",
+          "begin_transform_sound": "block.turtle_egg.crack",
+          "transformation_sound": "block.turtle_egg.break",
+          "keep_owner": true,
+          "delay": {
+            "value": 5
+          }
+        },
+        "minecraft:is_shaking": {}
+      },
+      "frog": {
+        "minecraft:transformation": {
+          "into": "cyd:frog",
+          "begin_transform_sound": "block.turtle_egg.crack",
+          "transformation_sound": "block.turtle_egg.break",
+          "keep_owner": true,
+          "delay": {
+            "value": 5
+          }
+        },
+        "minecraft:is_shaking": {}
+      },
+      "snail": {
+        "minecraft:transformation": {
+          "into": "cyd:snail",
+          "begin_transform_sound": "block.turtle_egg.crack",
+          "transformation_sound": "block.turtle_egg.break",
+          "keep_owner": true,
+          "delay": {
+            "value": 5
+          }
+        },
+        "minecraft:is_shaking": {}
+      },
+      "squirrel": {
+        "minecraft:transformation": {
+          "into": "cyd:squirrel",
+          "begin_transform_sound": "block.turtle_egg.crack",
+          "transformation_sound": "block.turtle_egg.break",
+          "keep_owner": true,
+          "delay": {
+            "value": 5
+          }
+        },
+        "minecraft:is_shaking": {}
+      }
+    },
+    "components": {
+      "minecraft:damage_sensor": [
+        {
+          "deals_damage": false
+        }
+      ],
+      "minecraft:timer": {
+        "looping": false,
+        "time": 5,
+        "time_down_event": {
+          "event": "hatch"
+        }
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true,
+        "avoid_water": true
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:balloonable": {
+        "mass": 0.75
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:type_family": {
+        "family": [
+          "wolf"
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.3,
+        "height": 0.3
+      },
+      "minecraft:health": {
+        "value": 100000000,
+        "max": 100000000
+      },
+      "minecraft:knockback_resistance": {
+        "value": 100000000
+      },
+      "minecraft:physics": {
+        "has_gravity": true,
+        "has_collision": true
+      }
+    },
+    "events": {
+      "hatch": {
+        "add": {
+          "component_groups": [
+            "hatch"
+          ]
+        }
+      },
+      "spawn": {
+        "randomize": [
+          {
+            "weight": 10,
+            "add": {
+              "component_groups": [
+                "chick"
+              ]
+            }
+          },
+          {
+            "weight": 10,
+            "add": {
+              "component_groups": [
+                "dino"
+              ]
+            }
+          },
+          {
+            "weight": 10,
+            "remove": {},
+            "add": {
+              "component_groups": [
+                "frog"
+              ]
+            }
+          },
+          {
+            "weight": 10,
+            "remove": {},
+            "add": {
+              "component_groups": [
+                "snail"
+              ]
+            }
+          },
+          {
+            "weight": 10,
+            "remove": {},
+            "add": {
+              "component_groups": [
+                "squirrel"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

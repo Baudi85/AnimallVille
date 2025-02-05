@@ -1,0 +1,81 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "vehicle:hippo",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "width": 1,
+        "height": 2.2
+      },
+      "minecraft:physics": {},
+      "minecraft:type_family": {
+        "family": [
+          "truck",
+          "vehicle"
+        ]
+      },
+      "minecraft:health": {
+        "value": 10,
+        "max": 10
+      },
+      "minecraft:scale": {
+        "value": 1
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0
+      },
+      "minecraft:movement": {
+        "value": {
+          "range_min": 0.3,
+          "range_max": 0.5
+        }
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true
+      },
+      "minecraft:input_ground_controlled": {},
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:pushable": {
+        "is_pushable": false
+      },
+      "minecraft:nameable": {},
+      "minecraft:is_saddled": {},
+      "minecraft:behavior.player_ride_tamed": {},
+      "minecraft:rideable": {
+        "seat_count": 2,
+        "seats": [
+          {
+            "position": [
+              0.5,
+              1.7,
+              1.4
+            ],
+            "min_rider_count": 0,
+            "max_rider_count": 2
+          },
+          {
+            "position": [
+              -0.5,
+              1.7,
+              1.4
+            ],
+            "min_rider_count": 2,
+            "max_rider_count": 2
+          }
+        ],
+        "interact_text": "action.interact.ride.boat"
+      }
+    },
+    "events": {},
+    "component_groups": {}
+  }
+}

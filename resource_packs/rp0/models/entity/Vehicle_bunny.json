@@ -1,0 +1,136 @@
+{
+	"format_version": "1.10.0",
+	"geometry.Vehicle_bunny": {
+		"texturewidth": 512,
+		"textureheight": 512,
+		"visible_bounds_width": 5,
+		"visible_bounds_height": 5,
+		"visible_bounds_offset": [0, 2.5, 0],
+		"bones": [
+			{
+				"name": "BunnyAmbulance",
+				"pivot": [0, 22, -24]
+			},
+			{
+				"name": "Body",
+				"parent": "BunnyAmbulance",
+				"pivot": [0, 9, 0],
+				"cubes": [
+					{"origin": [19.5, 6.5, -24], "size": [3, 51.5, 61], "uv": [198, 0]},
+					{"origin": [-21.5, 6.5, -41], "size": [44, 20, 17], "uv": [112, 224]},
+					{"origin": [11, 58, 21.5], "size": [7, 7, 7], "uv": [34, 341]},
+					{"origin": [-4.5, 11, 37], "size": [9, 6, 3], "uv": [128, 341]},
+					{"origin": [-18.5, 53, -24], "size": [38, 5, 61], "uv": [0, 0]},
+					{"origin": [-18.5, 6.5, -2], "size": [38, 46.5, 39], "uv": [128, 112]},
+					{"origin": [-18.5, 6.5, -24], "size": [38, 5, 22], "uv": [234, 224]},
+					{"origin": [2, 11, -21], "size": [14.5, 3.5, 18.5], "uv": [0, 277]},
+					{"origin": [2, 14.5, -6], "size": [14.5, 24.5, 3.5], "uv": [100, 309]},
+					{"origin": [-21.5, 6.5, -24], "size": [3, 51.5, 61], "uv": [0, 112]},
+					{"origin": [-16, 11, -21], "size": [14.5, 3.5, 18.5], "uv": [64, 277]},
+					{"origin": [-16, 14.5, -6], "size": [14.5, 24.5, 3.5], "uv": [134, 309]},
+					{"origin": [-2.5, 11.5, -24], "size": [5, 6, 22], "uv": [178, 277]},
+					{"origin": [-2.5, 17.5, -8], "size": [5, 11, 6], "uv": [62, 341]},
+					{"origin": [7.5, 23.5, -30], "size": [4, 5, 8], "uv": [84, 341]},
+					{"origin": [-16.5, 11.5, -43], "size": [9, 9, 2], "uv": [128, 350]},
+					{"origin": [8.5, 11.5, -43], "size": [9, 9, 2], "uv": [152, 341]}
+				]
+			},
+			{
+				"name": "leftear",
+				"parent": "Body",
+				"pivot": [13, 58, -12],
+				"cubes": [
+					{"origin": [7.5, 58, -13], "size": [10, 17, 7], "uv": [0, 341]}
+				]
+			},
+			{
+				"name": "rightear",
+				"parent": "Body",
+				"pivot": [-11, 58, -12],
+				"cubes": [
+					{"origin": [-16.5, 58, -13], "size": [10, 17, 7], "uv": [168, 309]}
+				]
+			},
+			{
+				"name": "carot",
+				"parent": "Body",
+				"pivot": [-14, 58, 22],
+				"cubes": [
+					{"origin": [-15, 58, 19.5], "size": [3, 3, 7], "uv": [0, 365]},
+					{"origin": [-14, 58, 31.5], "size": [0, 6, 10], "uv": [108, 341]},
+					{"origin": [-16, 58, 26.5], "size": [4, 4, 5], "uv": [20, 365]},
+					{"origin": [-14, 58, 15.5], "size": [2, 2, 4], "uv": [62, 365]}
+				]
+			},
+			{
+				"name": "Steering Wheel",
+				"parent": "Body",
+				"pivot": [9.5, 26.5, -21.5],
+				"cubes": [
+					{"origin": [4.5, 22.5, -22], "size": [10, 8, 1], "uv": [152, 352]}
+				]
+			},
+			{
+				"name": "Mirror",
+				"parent": "Body",
+				"pivot": [0.5, 48, -5],
+				"rotation": [-25, 0, 0],
+				"cubes": [
+					{"origin": [-25, 22, -24.5], "size": [4, 8, 2.5], "uv": [50, 365]},
+					{"origin": [22, 22, -24.5], "size": [4, 8, 2.5], "uv": [38, 365]}
+				]
+			},
+			{
+				"name": "Window",
+				"parent": "Body",
+				"pivot": [0.5, 48, -5],
+				"rotation": [-25, 0, 0],
+				"cubes": [
+					{"origin": [-21, 9, -26.5], "size": [43, 40, 13.5], "uv": [0, 224]}
+				]
+			},
+			{
+				"name": "wheelback",
+				"parent": "BunnyAmbulance",
+				"pivot": [0, 8.5, 19]
+			},
+			{
+				"name": "WheelBackRight",
+				"parent": "wheelback",
+				"pivot": [-22, 10, 17.5],
+				"cubes": [
+					{"origin": [-28.5, 0.5, 11], "size": [9, 16, 16], "uv": [0, 309]}
+				]
+			},
+			{
+				"name": "WheelBackLeft",
+				"parent": "wheelback",
+				"pivot": [23, 10, 17.5],
+				"cubes": [
+					{"origin": [20.5, 0.5, 11], "size": [9, 16, 16], "uv": [128, 277]}
+				]
+			},
+			{
+				"name": "wheelfront",
+				"parent": "BunnyAmbulance",
+				"pivot": [0, 8.5, -19]
+			},
+			{
+				"name": "WheelFrontRight",
+				"parent": "wheelfront",
+				"pivot": [-22, 10, -20.5],
+				"cubes": [
+					{"origin": [-28.5, 0.5, -27], "size": [9, 16, 16], "uv": [50, 309]}
+				]
+			},
+			{
+				"name": "WheelFrontLeft",
+				"parent": "wheelfront",
+				"pivot": [23, 10, -20.5],
+				"cubes": [
+					{"origin": [20.5, 0.5, -27], "size": [9, 16, 16], "uv": [232, 277]}
+				]
+			}
+		]
+	}
+}

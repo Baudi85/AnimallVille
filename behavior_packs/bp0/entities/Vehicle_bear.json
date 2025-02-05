@@ -1,0 +1,104 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "vehicle:bear",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "width": 2,
+        "height": 3
+      },
+      "minecraft:physics": {},
+      "minecraft:type_family": {
+        "family": [
+          "bus"
+        ]
+      },
+      "minecraft:health": {
+        "value": 10,
+        "max": 10
+      },
+      "minecraft:scale": {
+        "value": 0.75
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0
+      },
+      "minecraft:movement": {
+        "value": {
+          "range_min": 0.3,
+          "range_max": 0.3
+        }
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true
+      },
+      "minecraft:input_ground_controlled": {},
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:pushable": {
+        "is_pushable": false
+      },
+      "minecraft:inventory": {
+        "inventory_size": 2,
+        "container_type": "horse"
+      },
+      "minecraft:damage_sensor": [
+        {
+          "deals_damage": false
+        }
+      ],
+      "minecraft:rideable": {
+        "seat_count": 4,
+        "seats": [
+          {
+            "position": [
+              0.8,
+              1.2,
+              0.5
+            ],
+            "min_rider_count": 0,
+            "max_rider_count": 4
+          },
+          {
+            "position": [
+              0.9,
+              1.2,
+              -1.4
+            ],
+            "min_rider_count": 2,
+            "max_rider_count": 4
+          },
+          {
+            "position": [
+              0.9,
+              1.2,
+              -3
+            ],
+            "min_rider_count": 3,
+            "max_rider_count": 4
+          },
+          {
+            "position": [
+              0.9,
+              1.2,
+              -5
+            ],
+            "min_rider_count": 4,
+            "max_rider_count": 4
+          }
+        ],
+        "interact_text": "action.interact.ride.boat"
+      }
+    },
+    "events": {},
+    "component_groups": {}
+  }
+}
